@@ -38,8 +38,7 @@ Diseña un sistema en Java que permita:
     * */
     public static void main(String[] args) {
 
-        PersonajeBuilder builder = new PersonajeBuilder("mago");
-        Personaje mago = builder
+        Personaje mago = new PersonajeBuilder("mago")
                 .setNombre("Merlín")
                 .setArma("Bastón mágico")
                 .setHabilidad("Bola de fuego")
